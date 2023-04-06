@@ -12,5 +12,6 @@ Contents
    :includehidden:
 
    readme
+   cookbooks/cookbooks
    contribute
    acknowledgments
