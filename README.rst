@@ -1,7 +1,7 @@
 Overview
 ========
 
-The Webnucleo Cookbooks is a project designed to illustrate the use of
+Webnucleo Cookbooks is a project designed to illustrate the use of
 `webnucleo <https://webnucleo.readthedocs.io>`_ resources.
 
 Authors
