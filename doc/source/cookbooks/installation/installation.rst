@@ -10,3 +10,4 @@ To install the libraries necessary to run `Webnucleo <https://webnucleo.readthed
    Linux
    MacOs
    Docker
+   Python

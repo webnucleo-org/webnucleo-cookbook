@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 base_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), "../..")
 
 about = {}
-with open(os.path.join(base_dir, "webnucleo-cookbook", "__about__.py")) as f:
+with open(os.path.join(base_dir, "webnucleo-cookbooks", "__about__.py")) as f:
     exec(f.read(), about)
 
 
@@ -112,7 +112,7 @@ html_static_path = ["_static"]
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "webnucleocookbookdoc"
+htmlhelp_basename = "webnucleocookbooksdoc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
