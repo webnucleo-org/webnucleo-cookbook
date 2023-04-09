@@ -1,8 +1,8 @@
 .. wnutils documentation master file, created by
    sphinx-quickstart on Thu May 10 10:29:49 2018.
 
-Welcome to Webnucleo!
-=====================
+Welcome to Webnucleo Cookbooks!
+===============================
 
 Contents
 --------

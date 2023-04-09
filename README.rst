@@ -1,7 +1,7 @@
 Overview
 ========
 
-The Webnucleo Cookbook is a project designed to illustrate the use of
+The Webnucleo Cookbooks is a project designed to illustrate the use of
 `webnucleo <https://webnucleo.readthedocs.io>`_ resources.
 
 Authors
@@ -12,8 +12,8 @@ Authors
 Issues or Help
 --------------
 
-- Issue Tracker: `<https://github.com/webnucleo-org/webnucleo-cookbook/issues/>`_
-- Source Code: `<https://github.com/webnucleo-org/webnucleo-cookbook/>`_
+- Issue Tracker: `<https://github.com/webnucleo-org/webnucleo-cookbooks/issues/>`_
+- Source Code: `<https://github.com/webnucleo-org/webnucleo-cookbooks/>`_
 
 License
 -------
