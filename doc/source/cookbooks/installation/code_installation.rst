@@ -1,7 +1,7 @@
 Code Installation
 =================
 
-With the necessary :doc:`libraries <library_installation>` installed,
+With the necessary :doc:`libraries <libraries_installation>` installed,
 you can now install the
 `Webnucleo <https://webnucleo.readthedocs.io>`_ C++ and Python codes.
 

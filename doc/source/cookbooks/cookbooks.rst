@@ -1,12 +1,12 @@
 Cookbooks
 =========
 
-Contents
---------
+Installation
+------------
 
 .. toctree::
    :maxdepth: 1
    :includehidden:
 
-   installation/library_installation
+   installation/libraries_installation
    installation/code_installation
