@@ -1,5 +1,7 @@
-Installation
-============
+.. _library:
+
+Library Installation
+====================
 
 To install the libraries necessary to run `Webnucleo <https://webnucleo.readthedocs.io>`_ cods, follow the instructions appropriate for your system.
 
@@ -10,4 +12,3 @@ To install the libraries necessary to run `Webnucleo <https://webnucleo.readthed
    Linux
    MacOs
    Docker
-   Python

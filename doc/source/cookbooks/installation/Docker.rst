@@ -7,7 +7,7 @@ It is possible to run Webnucleo codes inside a
 `Docker <https://docker.com>`_ container.  The container automatically includes
 all necessary libraries.
 
-`Install <https://docker.com>`_ Docker Desktop appropriate for your computer.
+Install `Docker Desktop <https://docker.com>`_ appropriate for your computer.
 Once Docker is installed, check that it is running properly by typing in
 a terminal window (note the *$* indicates  the shell prompt--you don't type it)::
 
@@ -23,9 +23,9 @@ It then opens the ubuntu window in which you can install and run webnucleo
 codes.  It's probably best to do this from inside the */home* directory, so
 you can type something like::
 
-    root@290c77381519:/# cd /home
-    root@290c77381519:/# mkdir my-projects
-    root@290c77381519:/# cd my-projects
+    root@0d68fa36adcf:~# cd /home
+    root@0d68fa36adcf:/home# mkdir my-projecrs
+    root@0d68fa36adcf:/home# cd my-projecrs/
 
 You can see what containers are running by typing in a different terminal::
 
@@ -34,25 +34,25 @@ You can see what containers are running by typing in a different terminal::
 This  is useful because you can move files from outside the container into
 it or vice versa.  For example, if *docker ps* returns::
 
-    CONTAINER ID   IMAGE              COMMAND   CREATED          STATUS          PORTS     NAMES
-    b51c4c6ecb0f   webnucleo/ubuntu   "bash"    36 seconds ago   Up 34 seconds             naughty_babbage
+    CONTAINER ID   IMAGE              COMMAND   CREATED         STATUS         PORTS     NAMES
+    0d68fa36adcf   webnucleo/ubuntu   "bash"    2 minutes ago   Up 2 minutes             nostalgic_almeida
 
-you can copy a file *my_file.txt* from a local directory
-to your container by typing::
+the container ID is *0d68fa36adcf*.  You can copy a file *my_file.txt* from a
+local directory to your container by typing::
 
-    $ docker cp my_file.txt b51c4c6ecb0f:/home/my-projects
+    $ docker cp my_file.txt 0d68fa36adcf:/home/my-projects
 
 In your container you can then type::
 
-    root@b51c4c6ecb0f:/home/my-projects# ls 
+    root@0d68fa36adcf:/home/my-projects# ls 
 
 which will show the file.  To copy the file back from the container, type::
 
-    $ docker cp b51c4c6ecb0f:/home/my-projects/my_file.txt .
+    $ docker cp 0d68fa36adcf:/home/my-projects/my_file.txt .
 
 Once you are done with the container, you can type::
 
-    root@b51c4c6ecb0f:/home/my-projects# exit
+    root@0d68fa36adcf:/home/my-projects# exit
 
 If you start the container again by typing::
 
@@ -65,9 +65,18 @@ example, if you type::
     root@9f0d57c1d209:/# ls /home
 
 you will see that the *my-projects* directory has disappeared since you have
-started a new container.  You
-will need to keep the container running to maintain those changes.
+started a new container.  You can think of the new container as a completely
+new computer but with all the Webnucleo-required libraries installed.
+If you do not want to lose your current work, you
+will need to keep the container running.
 
 Note that you can see what images you have pulled by typing::
 
     $ docker image ls
+
+If in attempting to run Docker, you see the response::
+
+    docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.
+    See 'docker run --help'.
+
+you will first need to restart the Docker Desktop application.

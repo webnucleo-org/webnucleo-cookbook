@@ -8,4 +8,5 @@ Contents
    :maxdepth: 1
    :includehidden:
 
-   installation/installation
+   installation/library_installation
+   installation/code_installation
