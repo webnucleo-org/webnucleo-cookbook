@@ -12,4 +12,6 @@ To do so, you can type::
 
     $ python -m pip install --user wnnet
 
-Users are encouraged to check out the tutorials for *wnnet* and *wnutils*.
+Users are encouraged to check out the tutorials for
+`wnnet <https://github.com/mbradle/wnnet/tree/main/tutorial>`_ and
+`wnutils <https://github.com/mbradle/wnutils_tutorials/>`_.

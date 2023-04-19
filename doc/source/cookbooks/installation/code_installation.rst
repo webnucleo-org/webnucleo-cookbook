@@ -1,3 +1,5 @@
+.. _code_installation:
+
 Code Installation
 =================
 
