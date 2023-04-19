@@ -14,9 +14,10 @@ Next, type::
 
      $ ./single_zone_network --example
 
-That will output an example usage.  Copy that command into your command line
-and hit enter.  The code will take a few minutes to run.  The output is left
-in a file *out.xml*.  You can analyze the calculation from this file.
+That will output an example usage. Copy that command into your command line
+and hit enter.  The code will take a few minutes to run.
+The output is left in a file *out.xml*.
+You can analyze the calculation from this file.
 For example, type::
 
      $ python
@@ -34,5 +35,5 @@ To get out of python, type::
      >>> exit()
 
 To smooth out the plots, rerun the calculation but save data more frequently.
-To do so, add the option `--xml_steps 5` to the execution command and repeat
+To do so, add the option ``--xml_steps 5`` to the execution command and repeat
 all the steps.
