@@ -34,5 +34,5 @@ To get out of python, type::
      >>> exit()
 
 To smooth out the plots, rerun the calculation but save data more frequently.
-To do so, add the option *--xml_steps 5* to the execution command and repeat
+To do so, add the option `--xml_steps 5` to the execution command and repeat
 all the steps.
