@@ -24,8 +24,8 @@ codes.  It's probably best to do this from inside the */home* directory, so
 you can type something like::
 
     root@0d68fa36adcf:~# cd /home
-    root@0d68fa36adcf:/home# mkdir my-projecrs
-    root@0d68fa36adcf:/home# cd my-projecrs/
+    root@0d68fa36adcf:/home# mkdir my-projects
+    root@0d68fa36adcf:/home# cd my-projects/
 
 You can see what containers are running by typing in a different terminal::
 
