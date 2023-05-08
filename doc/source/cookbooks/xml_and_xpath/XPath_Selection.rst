@@ -10,7 +10,7 @@ a reaction network.  This cookbook helps you get familiar with how to
 use XPath with Webnucleo codes.
 
 Begin by retrieving a network XML file.  You can do this directly by
-pulling one down from `OSF <https://osf.io/5cyg7/>`_.  To do retrieve
+pulling one down from `OSF <https://osf.io/5cyg7/>`_.  To retrieve
 a network XML file based on the V2.2 JINA Reaclib database, type::
 
      $ curl -L -J -o net.xml https://osf.io/kyhbs/download 
