@@ -20,4 +20,12 @@ Single-Zone Network
 
    single-zone/First
 
+XML and XPath
+-------------
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+
+   xml_and_xpath/XPath_Selection
 
