@@ -51,3 +51,16 @@ or, even, for short::
 
     $ ./single_zone_network --prog network_data
     
+If you get an error::
+
+    $ Error: Type mismatch between actual argument at (1) and actual argument at (2) (INTEGER(4)/REAL(8)).
+make: *** [../wn_user/build/Makefile.sparse:82: ../wn_user/build/vendor/SPARSKIT2/ORDERINGS/ccn.o] Error 1
+
+try setting the *FFLAGS* environment variable and recompiling::
+
+    $ export FFLAGS='-fallow-argument-mismatch'
+    $ ./project_make
+
+The error results an argument mismatch in some of the legacy fortran code.
+The Webnucleo team is working to update the necessary routines, but this
+fix should work for now.

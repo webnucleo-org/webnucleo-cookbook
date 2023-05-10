@@ -19,6 +19,7 @@ Single-Zone Network
    :includehidden:
 
    single-zone/First
+   single-zone/Response_Files
 
 XML and XPath
 -------------
