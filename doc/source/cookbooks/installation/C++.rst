@@ -53,8 +53,7 @@ or, even, for short::
     
 If you get an error::
 
-    $ Error: Type mismatch between actual argument at (1) and actual argument at (2) (INTEGER(4)/REAL(8)).
-make: *** [../wn_user/build/Makefile.sparse:82: ../wn_user/build/vendor/SPARSKIT2/ORDERINGS/ccn.o] Error 1
+    $ Error: Type mismatch between actual argument at (1) and actual argument at (2) (INTEGER(4)/REAL(8)).  make: *** [../wn_user/build/Makefile.sparse:82: ../wn_user/build/vendor/SPARSKIT2/ORDERINGS/ccn.o] Error 1
 
 try setting the *FFLAGS* environment variable and recompiling::
 
