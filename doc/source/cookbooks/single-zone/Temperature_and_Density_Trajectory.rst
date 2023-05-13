@@ -74,8 +74,7 @@ check the `temperature <https://osf.io/68jak>`_ as a function of time::
     $ python
     >>> import wnutils.xml as wx
     >>> xml = wx.Xml('out_nova.xml')
-    >>> xml.plot_property_vs_property('time', 't9', xlim = [0,1000], xlabel = 'time
-    >>>
+    >>> xml.plot_property_vs_property('time', 't9', xlim = [0,1000], xlabel = 'time (s)', ylabel = '$T_9$')
 
 You can also zoom in to see that the interpolater caught the
 `double peak <https://osf.io/4cz9f>`_ in the interpolation file::
