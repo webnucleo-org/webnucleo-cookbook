@@ -60,6 +60,6 @@ try setting the *FFLAGS* environment variable and recompiling::
     $ export FFLAGS='-fallow-argument-mismatch'
     $ ./project_make
 
-The error results an argument mismatch in some of the legacy fortran code.
+The error results from an argument mismatch in some of the legacy fortran code.
 The Webnucleo team is working to update the necessary routines, but this
 fix should work for now.
