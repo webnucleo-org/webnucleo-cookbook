@@ -79,4 +79,4 @@ check the `temperature <https://osf.io/68jak>`_ as a function of time::
 You can also zoom in to see that the interpolater caught the
 `double peak <https://osf.io/4cz9f>`_ in the interpolation file::
 
-    >>> xml.plot_property_vs_property('time', 't9', xlim = [100, 110], xlabel = 'time (s)', ylabel = '$T_9$') (s)', ylabel = '$T_9$')
+    >>> xml.plot_property_vs_property('time', 't9', xlim = [100, 110], xlabel = 'time (s)', ylabel = '$T_9$')
