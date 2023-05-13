@@ -25,12 +25,14 @@ For example, type::
      >>> xml = wx.Xml('out.xml')
      >>> xml.plot_property_vs_property('time', 't9', xlim = [0,1], xlabel = 'time (s)', ylabel = '$T_9$')
 
-That shows the temperature (in billions of K) as a function of time.  Next,
+That `shows <https://osf.io/xhjrt>`_
+the temperature (in billions of K) as a function of time.  Next,
 type::
 
      >>> xml.plot_mass_fractions_vs_property('time', ['n', 'h1', 'he4', 'si28', 'ni56'], xscale = 'log', yscale = 'log', ylim = [1.e-10,1], xlabel = 'time (s)', ylabel = 'Mass Fractions', use_latex_names = True, xlim = [1.e-15, 100])
 
-Here you will see the mass fractions of various species as a function of
+Here you will `see <https://osf.io//f6w29>`_
+the mass fractions of various species as a function of
 time in the calculation.
 
 To get out of python, type::

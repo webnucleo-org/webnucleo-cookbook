@@ -23,10 +23,20 @@ Thus, create a response file *alpha_mod.rsp* with the lines::
     --xml_steps 5
     --t_end 10
 
+You can create that file directly,
+download it from `OSF <https://osf.io/es6rx/>`_, or type::
+
+    $ curl -o alpha_mod.rsp -J -L https://osf.io/snby3/download
+
 Now create a script *run_mod.sh* with the lines::
 
     ./single_zone_network @alpha_mod.rsp --output_xml out_ref.xml
     ./single_zone_network @alpha_mod.rsp --rate_mod "{[(z = 2 and a = 4) or (z >= 10 and z <= 20)]; [reactant = 'he4' and product = 'gamma']; 10}" --output_xml out_mod.xml
+
+As with the response file, you can create this file directly,
+download it from `OSF <https://osf.io/es6rx/>`_, or type::
+
+    $ curl -o run_mod.sh -J -L https://osf.io/b25es/download
 
 The first line is for the reference calculation that uses the default network
 data.  The second line uses :doc:`XPath <../xml_and_xpath/XPath_Selection>`
@@ -46,7 +56,8 @@ When the code runs with the modified rates, it first prints out the
 modification *view*, which shows the reactions whose rates are to be
 modified and the modification factor.
 
-Check the effect of the rate modifications by typing, for example::
+Check the `effect <https://osf.io/6emgv>`_
+of the rate modifications by typing, for example::
 
     $ python
     >>> import wnutils.multi_xml as wm

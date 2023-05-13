@@ -13,7 +13,7 @@ be located.  You can create type something like::
 
 Once that's done, clone the header files::
 
-    $ git clone https://bitbucket.org/mbradle/wn_user
+    $ git clone https://bitbucket.org/mbradle/wn_user2
 
 Then pull down and compile the single-zone network project::
 

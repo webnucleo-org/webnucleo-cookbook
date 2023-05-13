@@ -36,6 +36,10 @@ temperature and expansion timescale).
 The initial mass fractions can be specified
 separately (each with their own *--init_mass_frac*, as in the example
 execution) or as a series of strings, as in the file shown here.
+You can create this file directly or
+obtain a copy of this file from `OSF <https://osf.io/gs3hp>`_ by typing::
+
+    $ curl -o alpha.rsp -J -L https://osf.io/xudz8/download
 
 Now create an execution script called, for example, *run.sh*, with the
 lines::
@@ -43,6 +47,11 @@ lines::
     ./single_zone_network @alpha.rsp --rho_0 1.e9 --output_xml out_1.e9.xml
     ./single_zone_network @alpha.rsp --rho_0 1.e8 --output_xml out_1.e8.xml
     ./single_zone_network @alpha.rsp --rho_0 1.e7 --output_xml out_1.e7.xml
+
+You can create this file directly or
+obtain a copy of this file from `OSF <https://osf.io/gs3hp>`_ by typing::
+
+    $ curl -o alpha.rsp -J -L https://osf.io/adez7/download
 
 Here the *@* indicates the response file.  You could also indicate the
 response file with *--response-file* so that *run.sh* would read::
@@ -69,6 +78,8 @@ can do the following::
     >>> mx = wm.Multi_Xml(['out_1.e9.xml', 'out_1.e8.xml', 'out_1.e7.xml'])
     >>> p_params = [{'label': '$\\tau = 0.1$ s'}, {'label': '$\\tau = 0.05$ s'}, {'label': '$\\tau = 0.01$ s'}]
     >>> mx.plot_mass_fraction_vs_property('time', 'he4', xlabel = 'time (s)', xlim = [0,1], plotParams = p_params, use_latex_names=True)
+
+Your output should look like `this <https://osf.io/gtw42>`_.
 
 You can, of course, put all parameters for a network calculation into a
 response file.  For example, you could have created three separate response

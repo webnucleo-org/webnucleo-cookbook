@@ -55,14 +55,14 @@ reactions and printing them out::
      ...     print(reac)
      ...
 
-Now try selecting only *(n,gamma)* reactions::
+Now try selecting only :math:`(n,\gamma)` reactions::
 
      >>> reacs_ng = net.get_reactions(reac_xpath="[reactant = 'n' and product = 'gamma']")
      >>> for reac in reacs_ng:
      ...     print(reac)
      ...
 
-Now print out only reactions with *zr90* as a product::
+Now print out only reactions with :math:`^{90}{\rm Zr}` as a product::
 
      >>> for reac in net.get_reactions(reac_xpath="[product = 'zr90']"):
      ...     print(reac)
