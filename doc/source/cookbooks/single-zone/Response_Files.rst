@@ -34,7 +34,7 @@ the other option choices into a response file, called, for example,
 Notice that options can be on the same line (as with the case of the initial
 temperature and expansion timescale).
 The initial mass fractions can be specified
-separately (each with their own *--init_mass_frac*, as in the example
+separately (each with their own ``--init_mass_frac``, as in the example
 execution) or as a series of strings, as in the file shown here.
 You can create this file directly or
 obtain a copy of this file from `OSF <https://osf.io/gs3hp>`_ by typing::
@@ -53,8 +53,8 @@ obtain a copy of this file from `OSF <https://osf.io/gs3hp>`_ by typing::
 
     $ curl -o alpha.rsp -J -L https://osf.io/adez7/download
 
-Here the *@* indicates the response file.  You could also indicate the
-response file with *--response-file* so that *run.sh* would read::
+In the script, the *@* indicates the response file.  You could also indicate the
+response file with ``--response-file`` so that *run.sh* would read::
 
     ./single_zone_network --response-file alpha.rsp --rho_0 1.e9 --output_xml out_1.e9.xml
     ./single_zone_network --response-file alpha.rsp --rho_0 1.e8 --output_xml out_1.e8.xml
