@@ -51,7 +51,7 @@ lines::
 You can create this file directly or
 obtain a copy of this file from `OSF <https://osf.io/gs3hp>`_ by typing::
 
-    $ curl -o alpha.rsp -J -L https://osf.io/adez7/download
+    $ curl -o run.sh -J -L https://osf.io/adez7/download
 
 In the script, the *@* indicates the response file.  You could also indicate the
 response file with ``--response-file`` so that *run.sh* would read::
@@ -76,10 +76,10 @@ can do the following::
     $ python
     >>> import wnutils.multi_xml as wm
     >>> mx = wm.Multi_Xml(['out_1.e9.xml', 'out_1.e8.xml', 'out_1.e7.xml'])
-    >>> p_params = [{'label': '$\\tau = 0.1$ s'}, {'label': '$\\tau = 0.05$ s'}, {'label': '$\\tau = 0.01$ s'}]
+    >>> p_params = [{'label': '$\\rho_0 = 10^9$ g/cc'}, {'label': '$\\rho_0 = 10^8$ g/cc'}, {'label': '$\\rho_0 = 10^7$ g/cc'}]
     >>> mx.plot_mass_fraction_vs_property('time', 'he4', xlabel = 'time (s)', xlim = [0,1], plotParams = p_params, use_latex_names=True)
 
-Your output should look like `this <https://osf.io/gtw42>`_.
+Your output should look like `this <https://osf.io/4cvnx>`_.
 
 You can, of course, put all parameters for a network calculation into a
 response file.  For example, you could have created three separate response
