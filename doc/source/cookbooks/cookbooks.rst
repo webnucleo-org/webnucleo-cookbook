@@ -23,6 +23,7 @@ Single-Zone Network
    single-zone/Modify_Rates
    single-zone/Temperature_and_Density_Trajectory
    single-zone/Specify_Abundances
+   single-zone/Update_Reaction_Data
 
 XML and XPath
 -------------
