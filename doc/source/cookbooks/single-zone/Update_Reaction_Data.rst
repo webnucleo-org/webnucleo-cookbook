@@ -39,9 +39,10 @@ any reaction data from the original network file with those from the
 extra reaction XML file.  Regarding this point, the network code
 stores reactions as a string.  This means the order of the reactants
 and products is import.  If data for the capture reaction are stored
-such that network code would generate the string
-:math:`^n + {56}{\rm Fe} \to ^{57}{\rm Fe} + \gamma` for the original
-data and :math:`^{56}{\rm Fe} + n \to ^{57}{\rm Fe} + \gamma`, the code
+such that the network code would generate the string
+:math:`n + ^{56}{\rm Fe} \to ^{57}{\rm Fe} + \gamma` for the original
+data and :math:`^{56}{\rm Fe} + n \to ^{57}{\rm Fe} + \gamma` for the
+new data, the code
 will consider these as separate reactions, and the ``--extra_reac_xml``
 option will cause the code to include both sets of data in the calculation.
 
