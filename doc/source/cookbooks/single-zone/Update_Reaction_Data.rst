@@ -42,7 +42,7 @@ and products is import.  If data for the capture reaction are stored
 such that network code would generate the string
 :math:`^n + {56}{\rm Fe} \to ^{57}{\rm Fe} + \gamma` for the original
 data and :math:`^{56}{\rm Fe} + n \to ^{57}{\rm Fe} + \gamma`, the code
-will consider these as separate reactions, and the ``--extra_reac_xml''
+will consider these as separate reactions, and the ``--extra_reac_xml``
 option will cause the code to include both sets of data in the calculation.
 
 Once the calculation is done, you can compare the results by typing::
