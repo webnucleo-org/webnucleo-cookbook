@@ -3,6 +3,11 @@
 Python
 ======
 
+(Note that if you are using a Docker container, you should not need to
+follow the steps below since starting the container will already install
+the necessary python libraries.
+You will also already be in the appropriate directory.)
+
 There are a number of `python packages <https://webnucleo.readthedocs.io/en/latest/python_packages.html>`_ useful for handling Webnucleo files.  They can be
 installed individually according to the instructions for the given package.
 It is useful for the cookbooks to install
