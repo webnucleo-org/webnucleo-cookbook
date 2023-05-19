@@ -47,7 +47,7 @@ You should see the lines::
       --every_point arg (=false) Hit every interp point
 
 You now need a trajectory file that provides a series of points giving *time*
-in seconds, *t9*, and *rho*, the masss density in *g/cc*.  Try a
+in seconds, *t9*, and *rho*, the mass density in *g/cc*.  Try a
 `Nova trajectory <https://osf.io/q4mk2>`_ file.  Download this directly,
 or type::
 
