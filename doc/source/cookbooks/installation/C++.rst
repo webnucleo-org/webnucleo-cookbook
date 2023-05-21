@@ -3,9 +3,11 @@
 C++
 ===
 
-(Note that if you are using a Docker container, you should not need to carry
-out these steps as the code will already be downloaded and compiled and you
-will alread be in the appropriate directory.  Simply
+(Note that if you are using a :doc:`Docker <./Docker>` container,
+you should not need to carry
+out the installation
+steps as the code will already be downloaded and compiled, and you
+will already be in the appropriate directory.  Simply
 try the example execution below.)
 
 The `Webnucleo <https://webnucleo.readthedocs.io>`_ C++ codes are organized

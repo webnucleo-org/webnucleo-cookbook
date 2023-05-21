@@ -19,7 +19,7 @@ which you are changing only a few parameters.
 To illustrate
 this, run a batch calculation of the default freezeout calculation
 but with different initial densities.  The only things that change in
-the calculations is the initial density *rho_0* and the output file.  Put all
+the calculations are the initial density *rho_0* and the output file.  Put all
 the other option choices into a response file, called, for example,
 *alpha.rsp*, which reads::
 

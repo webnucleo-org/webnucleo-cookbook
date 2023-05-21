@@ -3,7 +3,8 @@
 Python
 ======
 
-(Note that if you are using a Docker container, you should not need to
+(Note that if you are using a :doc:`Docker <./Docker>` container,
+you should not need to
 follow the steps below since starting the container will already install
 the necessary python libraries.
 You will also already be in the appropriate directory.)
