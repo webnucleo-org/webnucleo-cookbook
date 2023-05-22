@@ -4,8 +4,7 @@ Response Files
 ==============
 
 If you have successfully run a
-:doc:`first calculation <./First>` calculation,
-you will have noticed
+:doc:`first calculation <./First>`, you will have noticed
 that you typed in a number of options.  Those are options that are supplied
 to the various classes in the network code that govern how the calculation
 runs.  In the first calculation, you typed them directly into the command
