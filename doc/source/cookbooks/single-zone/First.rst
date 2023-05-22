@@ -35,6 +35,13 @@ Here you will `see <https://osf.io//f6w29>`_
 the mass fractions of various species as a function of
 time in the calculation.
 
+You can save a figure with the *savefig* keyword to the plot file.  For example, type::
+
+     >>> xml.plot_mass_fractions_vs_property('time', ['n', 'h1', 'he4', 'si28', 'ni56'], xscale = 'log', yscale = 'log', ylim = [1.e-10,1], xlabel = 'time (s)', ylabel = 'Mass Fractions', use_latex_names = True, xlim = [1.e-15, 100], savefig='x_vs_time.pdf')
+
+The output is *x_vs_time.pdf*.  With :doc:`../installation/Docker`, you can
+*docker cp* that file out of the container.
+
 To get out of python, type::
 
      >>> exit()
