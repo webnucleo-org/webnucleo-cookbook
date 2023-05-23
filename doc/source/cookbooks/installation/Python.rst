@@ -13,10 +13,11 @@ There are a number of `python packages <https://webnucleo.readthedocs.io/en/late
 installed individually according to the instructions for the given package.
 It is useful for the cookbooks to install
 `wnnet <https://wnnet.readthedocs.io>`_, which will also install
-`wnutils <https://wnutils.readthedocs.io>`_.
-To do so, you can type::
+`wnutils <https://wnutils.readthedocs.io>`_.  For flow and current digrams,
+it is useful to have *networkx* and *pygraphviz*.
+To install these, you can type::
 
-    $ python -m pip install --user wnnet
+    $ python -m pip install --user wnnet networkx pygraphviz
 
 Users are encouraged to check out the tutorials for
 `wnnet <https://github.com/mbradle/wnnet/tree/main/tutorial>`_ and

@@ -25,7 +25,7 @@ so in the Command Prompt, type::
 
 Now type the following::
 
-    setup-x86_64.exe -q -P pkg-config,gcc-core,gcc-fortran,gcc-g++,ghostscript,git,graphviz,gsl,hdf5,libboost-devel,libcrypt-devel,libfreetype-devel,libgsl-devel,libgtk2.0-devel,libhdf5-devel,libpng-devel,libxml2,libxml2-devel,libxslt,libxslt-devel,make,openbox,python3-h5py,python3-pyqt5,python3-sip,python36-devel,python36-numpy,python36-pip,subversion,texlive,texlive-collection-latex,texlive-collection-latexextra,texlive-collection-latexrecommended,texlive-collection-pictures,wget
+    setup-x86_64.exe -q -P pkg-config,curl,gcc-core,gcc-fortran,gcc-g++,ghostscript,git,graphviz,gsl,hdf5,libboost-devel,libcrypt-devel,libfreetype-devel,libgsl-devel,libgtk2.0-devel,libgvc-devel,libhdf5-devel,libpng-devel,libxml2,libxml2-devel,libxslt,libxslt-devel,make,openbox,python3-h5py,python3-pyqt5,python3-sip,python36-devel,python36-numpy,python36-pip,subversion,texlive,texlive-collection-latex,texlive-collection-latexextra,texlive-collection-latexrecommended,texlive-collection-pictures,wget
 
 This may ask you for your administrator password. If so, type that in.
 The Cygwin installation window that appears should then query you on a
