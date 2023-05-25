@@ -17,7 +17,6 @@ a network XML file based on the V2.2 JINA Reaclib database, type::
 
 Now open *python* and read the file into a network instance::
 
-     $ python
      >>> import wnnet as wn
      >>> net = wn.net.Net('net.xml')
 
