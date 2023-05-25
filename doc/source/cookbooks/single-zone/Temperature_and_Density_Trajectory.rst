@@ -69,9 +69,9 @@ Now run the calculation.  Type::
     $ ./single_zone_network --network_xml ../nucnet-tools-code/data_pub/my_net.xml --nuc_xpath "[z <= 30]" --interp_file nova_profile_rescaled.txt --output_xml out_nova.xml --zone_xml zone_nova.xml --xml_steps 5 --t_end 1000.
 
 Once the calculation is completed, plot quantities of interest.  For example,
-check the `temperature <https://osf.io/68jak>`_ as a function of time::
+check the `temperature <https://osf.io/68jak>`_ as a function of time.  In
+Python, type::
 
-    $ python
     >>> import wnutils.xml as wx
     >>> xml = wx.Xml('out_nova.xml')
     >>> xml.plot_property_vs_property('time', 't9', xlim = [0,1000], xlabel = 'time (s)', ylabel = '$T_9$')

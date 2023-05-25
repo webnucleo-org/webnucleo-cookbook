@@ -14,7 +14,8 @@ installed individually according to the instructions for the given package.
 It is useful for the cookbooks to install
 `wnnet <https://wnnet.readthedocs.io>`_, which will also install
 `wnutils <https://wnutils.readthedocs.io>`_.  For flow and current digrams,
-it is useful to have *networkx* and *pygraphviz*.
+it is also useful to have `networkx <networkx.org>`_ and
+`pygraphviz <https://pygraphviz.github.io>`_.
 To install these, you can type::
 
     $ python -m pip install --user wnnet networkx pygraphviz

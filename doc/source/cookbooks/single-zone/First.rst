@@ -18,16 +18,19 @@ That will output an example usage. Copy that command into your command line
 and hit enter.  The code will take a few minutes to run.
 The output is left in a file *out.xml*.
 You can analyze the calculation from this file.
-For example, type::
+For example, open Python by typing::
 
      $ python
+
+and then, in Python, enter the commands::
+
      >>> import wnutils.xml as wx
      >>> xml = wx.Xml('out.xml')
      >>> xml.plot_property_vs_property('time', 't9', xlim = [0,1], xlabel = 'time (s)', ylabel = '$T_9$')
 
 That `shows <https://osf.io/xhjrt>`_
 the temperature (in billions of K) as a function of time.  Next,
-type::
+enter::
 
      >>> xml.plot_mass_fractions_vs_property('time', ['n', 'h1', 'he4', 'si28', 'ni56'], xscale = 'log', yscale = 'log', ylim = [1.e-10,1], xlabel = 'time (s)', ylabel = 'Mass Fractions', use_latex_names = True, xlim = [1.e-15, 100])
 

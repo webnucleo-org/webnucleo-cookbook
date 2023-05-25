@@ -57,9 +57,8 @@ modification *view*, which shows the reactions whose rates are to be
 modified and the modification factor.
 
 Check the `effect <https://osf.io/6emgv>`_
-of the rate modifications by typing, for example::
+of the rate modifications by typing in Python, for example::
 
-    $ python
     >>> import wnutils.multi_xml as wm
     >>> mx = wm.Multi_Xml(['out_ref.xml', 'out_mod.xml'])
     >>> p_params = [{'label': 'Reference'}, {'label': 'Modified Rates'}]

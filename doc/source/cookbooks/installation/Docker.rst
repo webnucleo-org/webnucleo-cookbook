@@ -9,7 +9,7 @@ all necessary libraries and codes.
 
 Install `Docker Desktop <https://docker.com>`_ appropriate for your computer.
 Once Docker is installed, check that it is running properly by typing in
-a terminal window (note the *$* indicates  the shell prompt--you don't type it)::
+a terminal window::
 
     $ docker run hello-world
 
@@ -22,7 +22,7 @@ This pulls and installs the packages needed for webnucleo applications.  It
 also installs and compiles the single-zone network code.  Once the container
 starts, you can type::
 
-    root@e25ad5f695f0:/my-projects/single_zone# ls
+    # ls
 
 The result should be::
 
@@ -43,9 +43,10 @@ local directory to your container by typing::
 
     $ docker cp my_file.txt e25ad5f695f0:/my-projects/single_zone/
 
-In your container you can then again type::
+Of course, adjust the container ID to that shown in your execution
+of *docker ps*.  In your container you can then again type::
 
-    root@e25ad5f695f0:/my-projects/single_zone# ls
+    # ls
 
 which will show the file.  To copy the file back from the container, type::
 
@@ -53,7 +54,7 @@ which will show the file.  To copy the file back from the container, type::
 
 Once you are done with the container, you can type::
 
-    root@e25ad5f695f0:/my-projects/single_zone# exit
+    # exit
 
 If you start the container again by typing::
 
@@ -63,7 +64,7 @@ it will appear quickly since Docker will not need to pull down a new image.
 However, any changes you made in the previous container will be lost.  For
 example, if you type::
 
-    root@393f05903b38:/my-projects/single_zone# ls
+    # ls
 
 you will see that *my_file.txt* has disappeared since you have
 started a new container.  You can think of the new container as a completely

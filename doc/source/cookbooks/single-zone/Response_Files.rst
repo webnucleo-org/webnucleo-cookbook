@@ -70,9 +70,8 @@ XML files: *out_1.e9.xml*, *out_1.e8.xml*, and *out_1.e7.xml*.
 
 You can compare the output from the three calculations with
 `wnutils <https://wnutils.readthedocs.io>`_ routines.  For example, you
-can do the following::
+can type the following in Python::
 
-    $ python
     >>> import wnutils.multi_xml as wm
     >>> mx = wm.Multi_Xml(['out_1.e9.xml', 'out_1.e8.xml', 'out_1.e7.xml'])
     >>> p_params = [{'label': '$\\rho_0 = 10^9$ g/cc'}, {'label': '$\\rho_0 = 10^8$ g/cc'}, {'label': '$\\rho_0 = 10^7$ g/cc'}]

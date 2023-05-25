@@ -93,9 +93,8 @@ Run the calculation by typing::
     $ ./single_zone_network @specific_species.rsp --output_xml out_sp.xml
 
 Once the calculation is done, try confirming that the neutron abundance is
-constant in time by plotting::
+constant in time by plotting in Python::
 
-    $ python
     >>> import wnutils.xml as wx
     >>> xml = wx.Xml('out_sp.xml')
     >>> xml.plot_mass_fractions_vs_property('time', ['n'])

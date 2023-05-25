@@ -46,9 +46,9 @@ new data, the code
 will consider these as separate reactions, and the ``--extra_reac_xml``
 option will cause the code to include both sets of data in the calculation.
 
-Once the calculation is done, you can compare the results by typing::
+Once the calculation is done, you can compare the results by typing in
+Python::
 
-    $ python
     >>> import wnutils.multi_xml as mx
     >>> xmls = mx.Multi_Xml(['out_sp.xml', 'out_sp_mod.xml'])
     >>> p_params = [{'label': 'Reference'}, {'label': 'Talys'}]

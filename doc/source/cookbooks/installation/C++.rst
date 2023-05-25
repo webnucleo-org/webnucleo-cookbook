@@ -13,7 +13,7 @@ try the example execution below.)
 The `Webnucleo <https://webnucleo.readthedocs.io>`_ C++ codes are organized
 as a set of header files and separate individual projects.  To install a
 project, first create a directory where you would like the projects to
-be located.  You can create type something like::
+be located.  You can type something like::
 
     $ mkdir my-projects
     $ cd my-projects
